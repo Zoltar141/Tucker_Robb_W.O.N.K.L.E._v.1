@@ -1,6 +1,27 @@
 {
   "high_scores": {
-    "": 170
+    "": 170,
+    "brickbreaker": 60,
+    "snake": 40
   },
-  "saves": {}
+  "saves": {
+    "snake": {
+      "state": {
+        "body_under_head": 0,
+        "direction_x": -1,
+        "direction_y": 0,
+        "food_x": 25,
+        "food_y": 0,
+        "game_lost": 0,
+        "game_won": 0,
+        "head_x": 12,
+        "head_y": 12,
+        "requested_direction_x": -1,
+        "requested_direction_y": 0,
+        "score": 10,
+        "snake_length": 5,
+        "winning_score": 300
+      }
+    }
+  }
 }

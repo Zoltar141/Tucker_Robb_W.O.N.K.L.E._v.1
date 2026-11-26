@@ -9,6 +9,7 @@
 #include <string>
 #include <vector>
 #include <nlohmann/json.hpp>
+
 //everything the games share, written once. Each game is a child of this class and only adds what makes it that game
 class GameController
 {

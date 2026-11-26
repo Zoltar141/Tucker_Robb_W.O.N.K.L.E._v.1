@@ -65,5 +65,15 @@ private:
     // Movement timing
     std::chrono::steady_clock::time_point lastFrameTime;//when the previous frame was measured
     double elapsedMilliseconds = 0;//time built up toward the next update
+
+    //Gravity
+    //position movment down at a set pace defined in json
+    //update frame after gravity math
+    //collision check to make gravity "stop"
+
+    //tetrino
+    //lead brick + configuration defined in json
+    //rotate rules so the bricks "spin"
+    //colision rulese and line clearing 
 };
 
